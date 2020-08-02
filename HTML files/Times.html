@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title> </title>
+	</head>
+	
+	<body>
+		<SCRIPT type="text/javascript">
+		
+		//declare varibles
+		var today = new Date();
+		
+		//get the month 0 - 11
+		
+		month = today.getMonth();
+		month = month+1;
+		
+		//calculate the season - make sure we use indentation for nested if
+		//winter
+		
+		if (month == 12 || month == 1 || month == 2)
+			{
+				alert ("It's Winter");
+			}
+		else 
+		if (month == 3 || month == 4 || month == 5)
+			{
+				alert ("It's Spring");
+			}
+		else 
+		if (month == 6 || month == 7 || month == 8)
+			{
+				alert ("It's Summer");
+			}	
+		else 
+		if (month == 9 || month == 10 || month == 11)
+			{
+				alert ("It's Autumn");
+			}	
+		
+		
+		</script>
+		
+	</body>
+	
+</html>
+			

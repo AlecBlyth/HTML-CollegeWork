@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title> Dice Rolling </title>
+	</head>
+	
+	<body>
+		<SCRIPT type="text/javascript">
+		
+		//declare varibles
+		
+			var diceA = 0;
+			var diceB = 0;
+		
+		//throw dice
+		
+		diceA = 1+ Math.floor(Math.random()*6);	
+		diceB = 1+ Math.floor(Math.random()*6);
+		
+		//play game
+		
+		if ((diceA==diceB)||(diceA+diceB==11)||(diceB==3))
+			{		
+				alert("you win");
+			}
+		else
+			{
+				alert("you lose");
+			}
+		
+		document.write("diceA = " + diceA + " diceB = " +diceB);  
+		
+		
+		</script>
+		
+	</body>
+	
+</html>
+			

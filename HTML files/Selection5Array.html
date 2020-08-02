@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title> Using Arrays</title>
+	</head>
+	
+	<body>
+		<SCRIPT type="text/javascript">
+		//declaring varibles 
+		var choice;
+		var animals = ["Lion","Bear","Tiger","Horse","Zebra","Giraffe"];
+		// adding to an array
+		
+		animals[animals.length] = "Elephant";
+		animals[animals.length] = "Dog";
+		animals[animals.length] = "Cat";
+	
+		//Input
+		choice = parseInt(prompt("Type a number between 0 and " + ( animals.length -1),0));
+
+			alert("You chose" + animals[choice]);
+			//iteration
+			//for loop
+			
+			for (count=0;count<animals.length;count++)
+			{
+				document.write(animals[count]+"<br>"); 
+			}
+			
+			
+		
+		
+		</script>
+		
+	</body>
+	
+</html>
+			

@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title> Selection Using Switch/Case </title>
+	</head>
+	
+	<body>
+		<SCRIPT type="text/javascript">
+		
+		//declaring varibles
+		
+		var option;
+		//Menu Display
+			
+			document.write("<h1> MENU </h1><br>");
+			document.write("<h3>1. Option1 </h3> <br>");
+			document.write("<h3>2. Option2 </h3> <br>");
+			document.write("<h3>3. Option3 </h3> <br>");
+			document.write("<h3>4. Option4 </h3> <br>");
+			
+			//Read user choice as a number
+				
+				option = parseInt( prompt("Enter Choice 1-4",0));
+			
+			//switch/case statements
+
+			switch(option)
+			{ 
+				case 1:
+					alert("Option 1");
+					break;
+				case 2: 
+					alert("Option 2");
+					break;
+				case 3:
+					alert("Option 3");
+					break;
+				case 4:
+					alert("Option 4");
+					break;
+				
+				default:
+					alert("1 to 4 only");
+					
+					
+			} //end of switch
+			
+			document.write("End of code");
+		</script>
+		
+	</body>
+	
+</html>
+			
